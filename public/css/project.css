@@ -1,0 +1,132 @@
+.input-group-addon{
+	background-color : #000000;
+	text : #FFFFFF;
+}
+
+body {
+	font-family: arial;
+}
+#myTable {
+	background-color: #fcfcfc;
+	padding: 5px 3px 2px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+	margin: 0 auto;
+	overflow: auto; /*create scrollable*/
+	white-space: nowrap;  /*create scrollable*/
+}
+#myTable span {
+	display: inline-block;
+    width: 32px;
+    height:32px;
+    border: 1px;
+    text-align: center;
+}
+#myTable span.dayActive {
+	background-color: grey;
+	color: #ffffff;
+}
+#myTable span.dayActive button {
+	color: #ffffff;
+}
+#myTable span.prevDay button {
+	color: lightgrey;
+}
+#myTable span.selected {
+	background-color: red;
+	color: #ffffff;
+}
+#myTable span button, #myTable span button:focus {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline-color: transparent;
+	color: inherit;
+}
+.month, .year {
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+.month {
+	background-color: #dddddd;
+	box-shadow: 0px 3px 8px #cccccc;
+}
+.weeks span {
+	font-weight: 400;
+}
+.Sat{
+	background-color: #e6f2ff;
+}
+.Sun{
+	background-color: #cce5ff;
+}
+.Mon{
+	background-color:  #b3d7ff;
+}
+.Tue{
+	background-color: #99caff;
+}
+.Wed{
+	background-color:  #80bdff
+}
+.Thu{
+	background-color: #66b0ff;
+}
+.Fri{
+	background-color: #4da3ff;
+}
+a.btn {
+	font-size: 30px;
+	cursor: pointer;
+}myClass
+.showClass {
+	display: block;
+}
+.hideClass {
+	display: none;
+}
+#dateValue {
+	margin-top: 20px;
+	width: 200px;
+	padding: 10px;
+}
+ #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .controls {
+        background-color: #fff;
+        border-radius: 2px;
+        border: 1px solid transparent;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        height: 29px;
+        margin-left: 17px;
+        margin-top: 10px;
+        outline: none;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+
+      .controls:focus {
+        border-color: #4d90fe;
+      }
+      .title {
+        font-weight: bold;
+      }
+      #infowindow-content {
+        display: none;
+      }
+      #map #infowindow-content {
+        display: inline;
+      }
+
